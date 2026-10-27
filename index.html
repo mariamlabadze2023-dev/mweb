@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M web studio | Thoughtfully designed. Beautifully built.</title>
+  <meta name="description" content="M web studio is an independent web design project creating clean, thoughtful, and responsive websites for small businesses in Georgia and internationally.">
+
+  <!-- Google Fonts: Playfair Display & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =================================================================
+       HEADER / NAVIGATION
+       ================================================================= -->
+  <header class="site-header" id="top">
+    <div class="container header-container">
+      
+      <!-- LOGO 
+           To replace with your own image logo:
+           Uncomment the <img> line below and comment out or remove the .logo-text div.
+           Example: <img src="images/your-logo.png" alt="M web studio logo" class="brand-logo-img">
+      -->
+      <a href="#top" class="brand-logo" aria-label="M web studio homepage">
+        <span class="logo-mark" aria-hidden="true">M</span>
+        <span class="logo-text">M web studio</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#work" class="nav-link">Work</a></li>
+          <li><a href="#process" class="nav-link">Process</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action -->
+      <div class="header-action">
+        <a href="#contact" class="btn btn-outline nav-cta">Let's Talk</a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Toggle navigation menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-nav-drawer" id="mobileNav" aria-hidden="true">
+      <div class="mobile-nav-inner">
+        <ul class="mobile-nav-list">
+          <li><a href="#home" class="mobile-nav-link">Home</a></li>
+          <li><a href="#services" class="mobile-nav-link">Services</a></li>
+          <li><a href="#work" class="mobile-nav-link">Work</a></li>
+          <li><a href="#process" class="mobile-nav-link">Process</a></li>
+          <li><a href="#about" class="mobile-nav-link">About</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-nav-footer">
+          <a href="#contact" class="btn btn-primary btn-block mobile-cta">Let's Talk</a>
+          <p class="mobile-tagline">Thoughtfully designed. Beautifully built.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- =================================================================
+         HERO SECTION
+         ================================================================= -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot" aria-hidden="true"></span>
+            <span>Web Design Studio · Georgia & Worldwide</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Your business deserves a beautiful online home.
+          </h1>
+          
+          <p class="hero-lead">
+            Thoughtfully designed websites for small businesses ready to grow.
+          </p>
+          
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Let's build your website</a>
+            <a href="#work" class="btn btn-ghost">
+              Explore my work
+              <svg class="btn-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero-subtext">
+            <span>Clean layouts</span>
+            <span class="bullet" aria-hidden="true">•</span>
+            <span>Mobile-ready</span>
+            <span class="bullet" aria-hidden="true">•</span>
+            <span>Tailored for small businesses</span>
+          </div>
+        </div>
+
+        <!-- Tasteful visual composition: Desktop & Mobile preview mockups -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="mockup-composition">
+            
+            <!-- Desktop Mockup Frame -->
+            <div class="desktop-frame shadow-soft">
+              <div class="browser-header">
+                <div class="browser-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <div class="browser-address-bar">
+                  <span class="browser-lock">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                      <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                    </svg>
+                  </span>
+                  <span class="browser-url">mwebstudio.ge/preview/mira-studio</span>
+                </div>
+              </div>
+              <div class="browser-screen">
+                <img src="images/mira-studio-preview.jpg" alt="Desktop preview mockup of MIRA Studio concept website" class="screen-img" loading="eager">
+              </div>
+            </div>
+
+            <!-- Overlapping Mobile Phone Frame -->
+            <div class="phone-frame shadow-floating">
+              <div class="phone-speaker"></div>
+              <div class="phone-screen">
+                <div class="phone-mini-hero">
+                  <div class="phone-mini-nav">
+                    <span class="phone-mini-logo">MIRA</span>
+                    <span class="phone-mini-menu"></span>
+                  </div>
+                  <div class="phone-mini-tag">Collection 03</div>
+                  <div class="phone-mini-heading">Embrace The Journey</div>
+                  <div class="phone-mini-card">
+                    <div class="phone-mini-chip">Sustainable</div>
+                    <div class="phone-mini-btn">Shop Linen</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Subtle Decorative Quality Pill -->
+            <div class="quality-badge shadow-soft">
+              <span class="quality-icon">✦</span>
+              <div>
+                <strong>Bespoke Quality</strong>
+                <small>Every detail considered</small>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SERVICES SECTION
+         ================================================================= -->
+    <section class="services-section section-padding" id="services">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Services</span>
+          <h2 class="section-title">Design services tailored to your needs</h2>
+          <p class="section-subtitle">
+            Focused, honest solutions crafted to present your business with clarity and confidence.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          
+          <!-- Service Card 1 -->
+          <article class="service-card">
+            <div class="service-number">01</div>
+            <div class="service-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="3" y1="9" x2="21" y2="9"></line>
+                <line x1="9" y1="21" x2="9" y2="9"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">One-Page Websites</h3>
+            <p class="service-description">
+              Clear, modern websites that introduce your business and make it easy for customers to get in touch.
+            </p>
+            <ul class="service-bullets">
+              <li>High-impact single page layout</li>
+              <li>Clear service & contact highlights</li>
+              <li>Streamlined, quick-to-launch structure</li>
+            </ul>
+          </article>
+
+          <!-- Service Card 2 -->
+          <article class="service-card service-card--featured">
+            <div class="service-number">02</div>
+            <div class="service-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Small Business Websites</h3>
+            <p class="service-description">
+              Simple multi-section websites tailored to your brand, services, and audience.
+            </p>
+            <ul class="service-bullets">
+              <li>Custom multi-section storytelling</li>
+              <li>Dedicated service & about areas</li>
+              <li>Designed around your specific business goals</li>
+            </ul>
+          </article>
+
+          <!-- Service Card 3 -->
+          <article class="service-card">
+            <div class="service-number">03</div>
+            <div class="service-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Responsive Web Design</h3>
+            <p class="service-description">
+              Layouts designed to look and work well on phones, tablets, and desktop screens.
+            </p>
+            <ul class="service-bullets">
+              <li>Flawless mobile & tablet viewing</li>
+              <li>Fast-loading and lightweight</li>
+              <li>Intuitive navigation across all devices</li>
+            </ul>
+          </article>
+
+        </div>
+
+        <div class="services-footer-note text-center">
+          <p>Looking for a custom project? <a href="#contact" class="inline-link">Let's discuss what you need →</a></p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         PORTFOLIO SECTION
+         ================================================================= -->
+    <section class="portfolio-section section-padding" id="work">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Selected Work</h2>
+          <p class="section-subtitle">
+            A collection of website concepts and projects.
+          </p>
+        </div>
+
+        <div class="portfolio-grid">
+          
+          <!-- Portfolio Project 1: MIRA Studio -->
+          <article class="project-card">
+            <div class="project-media">
+              <img 
+                src="images/mira-studio-preview.jpg" 
+                alt="Website design preview for MIRA Studio concept project showing an editorial fashion layout" 
+                class="project-image"
+                loading="lazy"
+                id="miraPreviewImg"
+              >
+              <!-- Clear Concept Project Label -->
+              <span class="concept-badge">Concept Project</span>
+              
+              <!-- Hover Overlay with action -->
+              <div class="project-overlay">
+                <button type="button" class="btn btn-primary btn-sm preview-btn" id="openMiraModal" aria-label="Open detailed preview of MIRA Studio concept project">
+                  View Concept Details
+                </button>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-category">Fashion & Retail</span>
+                <span class="project-tag-pill">One-Page Concept</span>
+              </div>
+              <h3 class="project-title">MIRA Studio</h3>
+              <p class="project-summary">
+                A warm, editorial concept website designed for an independent sustainable linen and clothing label. Emphasizes tactile imagery, spacious typography, and a calm shopping journey.
+              </p>
+              <div class="project-footer">
+                <span class="project-status-note">Fictional demonstration project</span>
+                <button type="button" class="project-text-link" id="viewDetailsTextBtn">Learn about this design →</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 
+            =============================================================
+            HOW TO ADD MORE PROJECTS LATER:
+            1. Copy the <article class="project-card"> block above.
+            2. Paste it right here.
+            3. Update the image source, title, category, and summary text.
+            =============================================================
+          -->
+
+          <!-- Upcoming Project / Invitation Card -->
+          <article class="project-card project-card--upcoming">
+            <div class="upcoming-content">
+              <div class="upcoming-icon">✦</div>
+              <span class="concept-badge concept-badge--muted">Your Project</span>
+              <h3 class="upcoming-title">Your website could be here</h3>
+              <p class="upcoming-text">
+                Ready to bring your business vision to life online? Let's collaborate to build an honest, beautiful site that welcomes your clients.
+              </p>
+              <a href="#contact" class="btn btn-outline btn-sm">Start a conversation</a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Project Detail Modal (Accessible & Lightweight) -->
+    <dialog class="project-modal" id="projectModal" aria-labelledby="modalTitle">
+      <div class="modal-card">
+        <button type="button" class="modal-close-btn" id="closeModalBtn" aria-label="Close project preview">✕</button>
+        <div class="modal-body">
+          <div class="modal-image-container">
+            <img src="images/mira-studio-preview.jpg" alt="MIRA Studio full preview" class="modal-image">
+          </div>
+          <div class="modal-details">
+            <span class="concept-badge">Concept Project</span>
+            <h3 id="modalTitle" class="modal-title">MIRA Studio</h3>
+            <p class="modal-tagline">Contemporary Minimalist Fashion Concept</p>
+            <hr class="modal-divider">
+            <p class="modal-desc">
+              This concept demonstrates a clean editorial design language suited for boutique retailers, artists, and independent makers. It features an organic warm ivory palette, gentle serif headers, and structured whitespace that lets the brand photography shine.
+            </p>
+            <div class="modal-specs">
+              <div class="spec-item">
+                <span class="spec-label">Project Type</span>
+                <span class="spec-value">Concept Design</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Audience</span>
+                <span class="spec-value">Independent Brands & Boutiques</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Focus</span>
+                <span class="spec-value">Editorial Layout & Responsive Usability</span>
+              </div>
+            </div>
+            <div class="modal-action">
+              <a href="#contact" class="btn btn-primary btn-block modal-cta" id="modalContactLink">Discuss a similar design</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <!-- =================================================================
+         PROCESS SECTION
+         ================================================================= -->
+    <section class="process-section section-padding" id="process">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Process</span>
+          <h2 class="section-title">From idea to online.</h2>
+          <p class="section-subtitle">
+            A simple, transparent three-step path to your new website.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          
+          <!-- Step 01 -->
+          <div class="process-card">
+            <div class="process-header">
+              <span class="process-step-num">01</span>
+              <span class="process-line" aria-hidden="true"></span>
+            </div>
+            <h3 class="process-step-title">Discover</h3>
+            <p class="process-step-desc">
+              We discuss your business, goals, and what your website needs to achieve.
+            </p>
+            <div class="process-detail-pill">
+              Listening & understanding your story
+            </div>
+          </div>
+
+          <!-- Step 02 -->
+          <div class="process-card">
+            <div class="process-header">
+              <span class="process-step-num">02</span>
+              <span class="process-line" aria-hidden="true"></span>
+            </div>
+            <h3 class="process-step-title">Design & Build</h3>
+            <p class="process-step-desc">
+              I create a website concept and refine the layout, content, and responsive design.
+            </p>
+            <div class="process-detail-pill">
+              Crafting layouts for every screen
+            </div>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="process-card">
+            <div class="process-header">
+              <span class="process-step-num">03</span>
+              <span class="process-line" aria-hidden="true"></span>
+            </div>
+            <h3 class="process-step-title">Review & Launch</h3>
+            <p class="process-step-desc">
+              We review the finished website, test the links and layout, and prepare it for publication.
+            </p>
+            <div class="process-detail-pill">
+              Polished, tested & ready for clients
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         ABOUT SECTION
+         ================================================================= -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        
+        <div class="about-wrapper">
+          <div class="about-badge-col">
+            <div class="about-monogram">M</div>
+            <span class="about-label">About the studio</span>
+          </div>
+
+          <div class="about-text-col">
+            <h2 class="about-heading">
+              Thoughtful design, crafted with care for small businesses.
+            </h2>
+            
+            <p class="about-lead">
+              M web studio is a growing independent web design project focused on creating clean, thoughtful websites for small businesses.
+            </p>
+
+            <div class="about-body">
+              <p>
+                Every small business has a distinct personality, and its online presence should reflect that with clarity and elegance. I believe in websites that feel calm, uncluttered, and easy for visitors to navigate.
+              </p>
+              <p>
+                Whether you are a local business based here in Georgia or reaching customers internationally, my goal is to deliver an honest, beautifully tailored website that gives your venture the home it deserves.
+              </p>
+            </div>
+
+            <div class="about-values">
+              <div class="value-item">
+                <span class="value-bullet">✦</span>
+                <div>
+                  <strong>Clear communication</strong>
+                  <p>A friendly, transparent collaboration every step of the way.</p>
+                </div>
+              </div>
+              <div class="value-item">
+                <span class="value-bullet">✦</span>
+                <div>
+                  <strong>Respect for your time</strong>
+                  <p>Straightforward timelines without unnecessary complexity or jargon.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         CONTACT SECTION
+         ================================================================= -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        
+        <div class="contact-box shadow-soft">
+          <div class="contact-header text-center">
+            <span class="section-tag">Get In Touch</span>
+            <h2 class="contact-title">Have an idea for your website?</h2>
+            <p class="contact-subtitle">
+              Tell me a little about your business and what you would like to create.
+            </p>
+          </div>
+
+          <div class="contact-content-grid">
+            
+            <!-- Direct Email Action Card -->
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <h3 class="contact-card-title">Send an Email</h3>
+              <p class="contact-card-text">
+                The fastest way to connect. Send me a quick note about your project and goals.
+              </p>
+              
+              <!-- 
+                =========================================================
+                HOW TO REPLACE THE EMAIL ADDRESS:
+                1. Replace "hello@mwebstudio.example.com" in the href="mailto:..." below.
+                2. Replace the visible email text inside the <span>.
+                =========================================================
+              -->
+              <div class="email-display-group">
+                <a 
+                  href="mailto:hello@mwebstudio.example.com?subject=Website%20Inquiry%20-%20M%20web%20studio&body=Hi%20M%20web%20studio,%0A%0AMy%20name:%20%0AMy%20business:%20%0AWhat%20I'd%20like%20to%20create:%20" 
+                  class="btn btn-primary btn-block contact-main-btn"
+                  id="emailDirectLink"
+                >
+                  Email Me
+                </a>
+                
+                <div class="email-copy-bar">
+                  <span class="email-address-text" id="emailAddressDisplay">hello@mwebstudio.example.com</span>
+                  <button type="button" class="btn-copy" id="copyEmailBtn" aria-label="Copy email address to clipboard" title="Copy email address">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    <span id="copyBtnText">Copy</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social & Location Card -->
+            <div class="contact-card contact-card--social">
+              <div class="contact-card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+              </div>
+              <h3 class="contact-card-title">Follow on TikTok</h3>
+              <p class="contact-card-text">
+                See behind-the-scenes design processes, tips, and studio updates.
+              </p>
+
+              <!-- 
+                =========================================================
+                HOW TO REPLACE THE TIKTOK LINK:
+                Replace "https://www.tiktok.com/@yourusername" with your real TikTok URL.
+                =========================================================
+              -->
+              <a 
+                href="https://www.tiktok.com/@yourusername" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn btn-outline btn-block social-btn"
+                id="tiktokLink"
+              >
+                <!-- TikTok SVG Icon -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3 15.28 6.34 6.34 0 0 0 9.34 21.6 6.34 6.34 0 0 0 15.68 15.28V8.97a8.21 8.21 0 0 0 4.91 1.62v-3.9z"/>
+                </svg>
+                <span>Follow @mwebstudio</span>
+              </a>
+
+              <div class="location-notice">
+                <span class="location-pin" aria-hidden="true">📍</span>
+                <span>Based in Georgia · Collaborating locally and across the globe.</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="contact-note text-center">
+            <p>No automated forms or hidden fees. We start with a genuine conversation.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =================================================================
+       FOOTER
+       ================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-brand-col">
+        <a href="#top" class="footer-logo">
+          <span class="logo-mark" aria-hidden="true">M</span>
+          <span class="logo-text">M web studio</span>
+        </a>
+        <p class="footer-tagline">Thoughtfully designed. Beautifully built.</p>
+        <p class="footer-mission">
+          Creating clear, elegant websites for small businesses ready to grow.
+        </p>
+      </div>
+
+      <div class="footer-nav-col">
+        <h4 class="footer-heading">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-connect-col">
+        <h4 class="footer-heading">Connect</h4>
+        <ul class="footer-links">
+          <li>
+            <a href="mailto:hello@mwebstudio.example.com">
+              Email inquiry
+            </a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@yourusername" target="_blank" rel="noopener noreferrer">
+              TikTok Profile ↗
+            </a>
+          </li>
+        </ul>
+        <div class="footer-location-tag">
+          Tbilisi, Georgia · Worldwide Service
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright-text">
+          &copy; <span id="currentYear">2026</span> M web studio. All rights reserved.
+        </p>
+        <a href="#top" class="back-to-top" aria-label="Back to top of page">
+          Back to top ↑
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification for Email Copy -->
+  <div class="toast-notification" id="toastNotification" role="status" aria-live="polite" aria-hidden="true">
+    Email address copied to clipboard!
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
